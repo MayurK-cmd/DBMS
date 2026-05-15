@@ -8,13 +8,16 @@
     "start": "node server.js",
     "dev": "node --watch server.js"
   },
-  "keywords": ["hospital", "management", "system"],
+  "keywords": [
+    "hospital",
+    "management",
+    "system"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
-    "@supabase/supabase-js": "^2.23.0"
+    "express": "^4.18.2"
   }
 }
